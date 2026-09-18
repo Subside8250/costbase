@@ -64,7 +64,7 @@ export function ImportView(props: Props) {
               onClick={props.onLoadSample}
               className="rounded-lg bg-slate-800 px-3 py-1.5 text-xs font-medium text-white hover:bg-slate-700"
             >
-              Load my sample data
+              Load sample data
             </button>
             <button
               onClick={() => restoreRef.current?.click()}
