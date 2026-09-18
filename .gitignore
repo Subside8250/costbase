@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+
+# ---- never commit personal financial data or personal setup ----
+*.private.csv
+my_transactions*.csv
+CMC/
+public/_samples/
+
+# Real portfolio data (kept locally, loaded via import/restore) — never upload
+fixtures/
+
+# Project spec docs that quote real portfolio figures
+CLAUDE.md
+PROJECT_SPEC.md
+KICKOFF_PROMPT.md
+
+# Tests that embed real figures / read the real fixtures (kept local only)
+src/engine/engine.test.ts
+src/export.test.ts
+
+# Windows shortcut carries an absolute user path
+*.lnk
