@@ -1,6 +1,7 @@
 import type { DocParser, ParseResult, ParserInput } from "./types";
 import { cmcTradingCsvParser } from "./cmcTradingCsv";
 import { cmcPortfolioCsvParser } from "./cmcPortfolioCsv";
+import { cmcTradingPdfParser } from "./cmcTradingPdf";
 import { ammaTaxParser } from "./ammaTaxStatement";
 import { vanguardAnnualParser } from "./vanguardAnnual";
 import { nabDividendParser } from "./nabDividend";
@@ -9,6 +10,7 @@ import { nabDividendParser } from "./nabDividend";
 export const PARSERS: DocParser[] = [
   cmcTradingCsvParser,
   cmcPortfolioCsvParser,
+  cmcTradingPdfParser,
   ammaTaxParser,
   vanguardAnnualParser,
   nabDividendParser,

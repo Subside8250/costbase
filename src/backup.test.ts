@@ -7,7 +7,7 @@ const state: PersistedState = {
   corporateActionsCsv: "date,type\n",
   incomeCsv: "fy_end,source_type\n2026,TRUST\n",
   method: "minimise_gain",
-  brokerUnits: { DHHF: 809, NAB: 146 },
+  brokerUnits: { SMPLX: 100, SMPLETF: 52 },
 };
 
 describe("backup / restore", () => {

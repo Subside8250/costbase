@@ -19,7 +19,15 @@ KICKOFF_PROMPT.md
 
 # Tests that embed real figures / read the real fixtures (kept local only)
 src/engine/engine.test.ts
+src/engine/cgt.test.ts
 src/export.test.ts
+src/parsers/parsers.test.ts
 
 # Windows shortcut carries an absolute user path
 *.lnk
+
+# Build junk
+tsconfig.tsbuildinfo
+vite.config.ts.timestamp-*.mjs
+reference/__pycache__/
+roundcases.json

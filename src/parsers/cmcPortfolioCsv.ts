@@ -1,7 +1,7 @@
 /**
  * CMC "PortfolioReport-Equities" CSV → broker holdings for reconciliation.
- * Security codes carry a market suffix (1211:HK, DHR:US) that we strip to the
- * bare code used everywhere else.
+ * Security codes may carry a market suffix (e.g. "ABC:US" or "1234:HK") that we
+ * strip to the bare code used everywhere else.
  */
 import type { DocParser, ExtractedItem, ParseResult } from "./types";
 import { itemId, parseNum } from "./util";
